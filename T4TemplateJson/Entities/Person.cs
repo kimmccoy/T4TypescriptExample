@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace T4TemplateJson.Entities
 {
@@ -15,6 +17,7 @@ namespace T4TemplateJson.Entities
         /// <summary>
         /// First name of the person
         /// </summary>
+        [Display(Name ="First Name", Description ="Your first name")]
         public string FirstName { get; set; }
 
         /// <summary>

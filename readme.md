@@ -11,6 +11,9 @@ but this can be removed by changing the T4 template.
 
 This project does not run. It is sample code with a template that builds.
 
+This T4 template solution was made for a project some time ago so there may be better approaches to this problem now. 
+Nonetheless, it serves as a demonstration of how T4 templates save you from typing things twice.
+
 ## How it works
 
 A custom attribute called 'ScriptDtoAttribute' is used to indicate which classes we want transformed.
@@ -43,6 +46,11 @@ you syntax highlighting and more. Some possible VS2017 extensions...
 - T4 Toolbox
 
 The template will run whenever you save it with a change.
+
+## Extending It
+
+Some ideas:
+- Get the comments from C# and put them on the typescript classes. Currently uses the SystemComponentModel.DataAnnotations.DisplayAttribute for this.
 
 
 
