@@ -3,7 +3,7 @@
 ## About
 
 This is a simple class library project that demonstrates 
-using a T4 template to generate javascript client side classes 
+using a T4 template to generate typescript client side classes 
 from C# classes.
 
 The generated typescript classes also have knockout observable properties
@@ -19,6 +19,7 @@ It is added to any class we want turned into a Typescript class.
 Two sample C# classes are in the project which have this attribute.
 
 ./Entities/Person
+
 ./Entities/Car
 
 A T4 Template is used to read all types in this assembly which have the 'ScriptDtoAttribute'
